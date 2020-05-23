@@ -20,6 +20,7 @@ class LoginPage(BasePage):
 
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="link")
+		I am adding a new line
 
     def enterEmail(self, email):
         self.sendKeys(email, self._email_field)
