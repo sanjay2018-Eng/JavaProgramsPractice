@@ -29,6 +29,8 @@ class RegisterCoursesPage(BasePage):
 
     def enterCourseName(self, name):
         self.sendKeys(name, locator=self._search_box)
+		
+		Added by user 1
 
     def selectCourseToEnroll(self, fullCourseName):
         self.elementClick(locator=self._course.format(fullCourseName), locatorType="xpath")

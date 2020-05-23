@@ -21,6 +21,10 @@ class LoginPage(BasePage):
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="link")
 		I am adding a new line
+		
+		Added by First User - Line 1
+		Added by First User - Line 2
+		Added by First User - Line 3
 
     def enterEmail(self, email):
         self.sendKeys(email, self._email_field)
