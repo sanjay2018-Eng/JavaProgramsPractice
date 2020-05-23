@@ -9,6 +9,9 @@ class NavigationPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+		
+		def user 2(self):
+        user 2 branch
 
     # Locators
     _my_courses = "All Courses"
