@@ -17,6 +17,10 @@ class LoginPage(BasePage):
     _email_field = "user_email"
     _password_field = "user_password"
     _login_button = "commit"
+	
+	def checkingBranches(self):
+        Changes done by USer1
+	
 
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="link")

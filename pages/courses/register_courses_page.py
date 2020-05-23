@@ -26,6 +26,9 @@ class RegisterCoursesPage(BasePage):
     ############################
     ### Element Interactions ###
     ############################
+	
+	def checkingBranches(self):
+        Changes done by USer1
 
     def enterCourseName(self, name):
         self.sendKeys(name, locator=self._search_box)
